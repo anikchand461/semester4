@@ -69,3 +69,8 @@ from a static context
 - static block in a class executes at first.
 - previous version of jdk 1.6 - in these you can print "hello" without using main() method , just using static method. But jdk 1.6 or latest - you jave to use main() method.
 - you can create multiple static blocks. And these will be exeuted top to bottom.
+
+### Use of static block
+
+1. static block is executed at class loading, hence at the time of class loading if we want to perform any activity, we have to define that inside static block.
+2. static block is used to initialize the static members.
