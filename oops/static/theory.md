@@ -62,3 +62,10 @@ from a static context
                        ^
 1 error
 ```
+
+### static block
+
+- static block executes automatically whenn the class is loaded in the memory.
+- static block in a class executes at first.
+- previous version of jdk 1.6 - in these you can print "hello" without using main() method , just using static method. But jdk 1.6 or latest - you jave to use main() method.
+- you can create multiple static blocks. And these will be exeuted top to bottom.
