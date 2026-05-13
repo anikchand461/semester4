@@ -18,18 +18,18 @@ It is based on **Bayes’ Theorem** and assumes that all features are independen
 
 # Bayes Theorem
 
-\[
+$$
 P(A|B) = \frac{P(B|A) \times P(A)}{P(B)}
-\]
+$$
 
 Where:
 
-| Symbol | Meaning          |
-| ------ | ---------------- | ------------------------ |
-| P(A    | B)               | Probability of A given B |
-| P(B    | A)               | Probability of B given A |
-| P(A)   | Probability of A |
-| P(B)   | Probability of B |
+| Symbol    | Meaning                  |
+| --------- | ------------------------ |
+| P(A \| B) | Probability of A given B |
+| P(B \| A) | Probability of B given A |
+| P(A)      | Probability of A         |
+| P(B)      | Probability of B         |
 
 ---
 
