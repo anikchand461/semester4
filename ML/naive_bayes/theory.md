@@ -18,7 +18,7 @@ It is based on **Bayes’ Theorem** and assumes that all features are independen
 
 # Bayes Theorem
 
-![Bayes Theorem](/semester4/ML/naive_bayes/img/bayes-theorem.jpg)
+![Bayes Theorem](/img/bayes-theorem.jpg)
 
 $$
 P(A|B) = \frac{P(B|A) \times P(A)}{P(B)}
