@@ -1,0 +1,19 @@
+<!--
+    DTD = Document Type Definition
+
+    DTD defines the legal structure of an XML document.
+
+    Syntax:
+    <!ELEMENT element-name (child-elements)>
+
+    #PCDATA = Parsed Character Data
+    It means the element contains normal text.
+-->
+
+<!ELEMENT student (name, roll, department)>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT roll (#PCDATA)>
+<!ELEMENT department (#PCDATA)>
+
+<!--PCDATA means : The name element can contain normal text data. -->

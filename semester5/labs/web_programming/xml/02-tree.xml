@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    XML TREE STRUCTURE
+
+    An XML document forms a tree structure.
+
+    Important terms:
+    - Root    : Topmost element
+    - Parent  : An element containing another element
+    - Child   : An element inside another element
+    - Sibling : Elements having the same parent
+    - Leaf    : An element containing only data and no child elements
+-->
+
+<college>
+    <student>
+        <name>Anik</name>
+        <roll>101</roll>
+        <department>CSE</department>
+    </student>
+</college>
+
+<!-- 
+        college
+        (ROOT)
+          │
+        student
+   (PARENT + CHILD)
+          │
+┌─────────┼──────────┐
+name       roll    department
+(LEAF)    (LEAF)      (LEAF)
+└─────────┼──────────┘
+      SIBLINGS
+-->

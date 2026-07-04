@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    XML ELEMENTS
+
+    An XML element consists of:
+    - Opening tag
+    - Content
+    - Closing tag
+
+    Example:
+    <name>Anik</name>
+
+    Elements can contain:
+    - Text
+    - Other elements
+    - Nothing (empty element)
+
+    Important:
+    - XML element names are case-sensitive.
+    - Element names must follow XML naming rules.
+-->
+
+<college>
+    <student>
+        <name>Anik</name>
+        <roll>101</roll>
+        <department>CSE</department>
+        <address/>
+    </student>
+</college>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    EXTERNAL DTD
+
+    DOCTYPE connects this XML file with student.dtd.
+
+    Syntax:
+    <!DOCTYPE root-element SYSTEM "file.dtd">
+-->
+
+<!DOCTYPE student SYSTEM "student.dtd">
+
+<student>
+    <name>Anik</name>
+    <roll>101</roll>
+    <department>CSE</department>
+</student>

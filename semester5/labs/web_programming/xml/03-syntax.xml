@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    XML SYNTAX RULES
+
+    1. XML must have exactly one root element.
+    2. Every opening tag must have a closing tag.
+    3. XML tags are case-sensitive.
+    4. Elements must be properly nested.
+    5. Attribute values must be quoted.
+-->
+
+<students>
+    <student>
+        <name>Anik</name>
+        <roll>101</roll>
+        <department>CSE</department>
+    </student>
+</students>

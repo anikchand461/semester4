@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    XML VALIDATION
+
+    There are two important terms:
+
+    1. Well-formed XML
+       - Follows all XML syntax rules.
+
+    2. Valid XML
+       - Is well-formed.
+       - Also follows rules defined by a DTD or XML Schema (XSD).
+
+    Important:
+    Every valid XML document is well-formed.
+    But every well-formed XML document is not necessarily valid.
+-->
+
+<student>
+    <name>Anik</name>
+    <roll>101</roll>
+    <department>CSE</department>
+</student>

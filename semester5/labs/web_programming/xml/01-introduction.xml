@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    XML = Extensible Markup Language
+
+    Purpose:
+    - Store data
+    - Organize data
+    - Transport / exchange data
+
+    Main Feature:
+    - XML allows us to create our own tags.
+    - Unlike HTML, XML does not have predefined tags.
+
+    XML Declaration:
+    <?xml version="1.0" encoding="UTF-8"?>
+
+    version="1.0"  -> Specifies the XML version
+    encoding="UTF-8" -> Specifies the character encoding
+
+    Important:
+    - The XML declaration must appear at the top of the document.
+    - XML focuses on what the data IS.
+    - HTML focuses on how the data LOOKS.
+-->
+
+<student>
+    <!-- Stores the name of the student -->
+    <name>Anik</name>
+
+    <!-- Stores the roll number of the student -->
+    <roll>101</roll>
+
+    <!-- Stores the department of the student -->
+    <department>CSE</department>
+</student>
